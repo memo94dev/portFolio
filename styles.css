@@ -1,0 +1,72 @@
+/* Menu de Navegacion */
+
+.wraper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: white;
+    padding: 2em;
+    font-family: times;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.title span {
+    color: aqua;
+}
+li {
+list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu a:hover {
+    background-color: aqua;
+    color: #191c32;
+    transition: .3s;
+}
+.listhome {
+    color: aqua;
+}
+
+/* Contenido */
+
+.home span {
+    color: aqua;
+}
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.main img {
+    width: 350px;
+    height: 500px;
+    filter: drop-shadow(15px 20px 10px white);
+}
+.btn-down {
+    padding: 10px 15px;
+    color: #191c32;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-down:hover {
+    background-color: white;
+}
+.btn-down:active {
+    transform: scale(0.9);
+}
